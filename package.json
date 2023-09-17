@@ -26,13 +26,15 @@
     "pg-hstore": "^2.3.4",
     "pino": "^8.15.1",
     "pino-pretty": "^10.2.0",
-    "sequelize": "^6.33.0",
-    "sequelize-cli": "^6.6.1",
-    "sequelize-typescript": "^2.1.5",
+    "sequelize": "^5.22.3",
+    "reflect-metadata": "^0.1.13",
+    "sequelize-cli": "^5.5.1",
+    "sequelize-typescript": "^1.1.0",
     "uuid": "^9.0.0",
     "yuo": "^0.0.1"
   },
   "devDependencies": {
+    "@types/bcryptjs": "^2.4.4",
     "nodemon": "^3.0.1",
     "ts-node-dev": "^2.0.0",
     "typescript": "^5.2.2"
