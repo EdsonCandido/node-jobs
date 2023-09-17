@@ -1,6 +1,6 @@
 import { Model, Table, Column, PrimaryKey, BeforeUpdate, BeforeCreate, AutoIncrement, DataType, CreatedAt, UpdatedAt } from 'sequelize-typescript'
-import { hash, compare } from "bcryptjs";
-@Table
+import { hash } from "bcryptjs";
+@Table({tableName: 'Users'})
 class User extends Model<User> {
 
     @PrimaryKey
@@ -36,3 +36,5 @@ class User extends Model<User> {
         }
     };
 }
+
+export default User
